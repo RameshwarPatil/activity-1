@@ -2,15 +2,12 @@
   
 int main()
  {
-   
- int n=10;
-    
-int i,n=10;
-    
-    
+ 
+int n=10;   
 unsigned long long factorial=1;
     
 printf("enter ab integer:");
+scanf("%d",&n);
     
 if(n<0)
             
@@ -21,12 +18,12 @@ printf("error! factorial of a negative number dorsn't exist.");
     
 {
        
- for(i=1;i<=n;i++)
 
- for(i=1;i<n;++i)
+ for(int i=1;i<n;++i)
        
  {
             factorial*=i;
+            printf("factorial is %d\n",factorial);
 
         }
 
