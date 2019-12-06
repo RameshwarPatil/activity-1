@@ -3,8 +3,7 @@
 int main()
  {
  
-int n=10;   
-unsigned long long factorial=1;
+int n=10,factorial=1;   
     
 printf("enter ab integer:");
 scanf("%d",&n);
